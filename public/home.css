@@ -1,0 +1,43 @@
+body {
+  box-sizing: border-box;
+}
+/* nav */
+.nav-item {
+  border: solid 1px;
+  border-radius: 25px;
+  overflow: hidden;
+}
+.nav-item:hover {
+  border: none;
+}
+.nav-link {
+  color: rgb(42, 41, 41);
+  width: 110px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  overflow: hidden;
+}
+.nav-link:hover {
+  background-color: #3ddc97;
+  color: white;
+}
+.navbar-brand {
+  color: rgb(42, 41, 41);
+}
+.navbar-brand:hover {
+  color: #3ddc97;
+}
+
+.navbar-brand {
+  font-size: 30px !important;
+  font-weight: bold;
+  letter-spacing: 5px !important;
+}
+
+/* banner */
+
+.banner-section {
+  background-image: url("https://res.cloudinary.com/dh6c27r32/image/upload/v1693619516/ai_o9erm0.png");
+  height: 100vh;
+}
